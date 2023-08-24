@@ -58,7 +58,7 @@ input:hover{
 #subscriberId{
     font-weight:800;
 }
-@media screen and (min-width:360px) and (max-width:991px){
+@media screen and (max-width:991px){
     #main{
         display:flex;
         flex-direction: column;
