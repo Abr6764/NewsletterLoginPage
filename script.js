@@ -10,7 +10,7 @@ let valid = false;
 btn.addEventListener('click',Validate);
 
 //eventListener t validate input email when press  "Enter" key
-email.addEventListener("keypress", function(event) {
+/*email.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault();
       Validate();
@@ -18,7 +18,7 @@ email.addEventListener("keypress", function(event) {
         clearErr();
       } 
     }
-});
+});*/
 
 //listener to clear the errmsg for re entering the email
 email.addEventListener('focus',clearErr);
