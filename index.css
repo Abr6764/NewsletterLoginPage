@@ -58,8 +58,8 @@ input:hover{
 #subscriberId{
     font-weight:800;
 }
-@media screen and (min-width:300px) and (max-width:991px){
-   /* #main{
+/*@media screen and (min-width:300px) and (max-width:991px){
+    #main{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
