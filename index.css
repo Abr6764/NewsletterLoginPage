@@ -58,14 +58,14 @@ input:hover{
 #subscriberId{
     font-weight:800;
 }
-@media screen and (max-width:991px){
+@media screen and (min-width:300px) and (max-width:991px){
     #main{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items:center;
         border : 1px solid grey;
-        width : 360px;
+        width : 300px;
         height: 100%;
         background-color: hsl(0, 0%, 100%);
         
@@ -83,14 +83,14 @@ input:hover{
     
     .points{
         padding:1px 10px 1px 0px;
-        margin:-10px 0px;
+        margin:-5px 0px;
         
     }
    
     h1{
         font-size:25px;
         font-weight: 800;
-        margin-top:10px;
+        margin-top:5px;
         margin-bottom:0px;
     }
     .email-section{
@@ -100,7 +100,7 @@ input:hover{
         display:none;
     }
     #email{
-        width:280px;
+        width:260px;
         height:50px;
         border-radius: 10px;
         padding-left: 5px;
@@ -108,7 +108,7 @@ input:hover{
     }
     #subscribe_btn{
         height:50px;
-        width:280px;
+        width:260px;
         color:aliceblue;
         background-color: hsl(235, 18%, 26%);
         font-size: 16px;
@@ -125,7 +125,7 @@ input:hover{
         justify-content: flex-start;
         gap:20px;
         background-color: white;
-        width : 300px;
+        width : 280px;
         padding:100px 20px ;
         
     }
