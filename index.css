@@ -59,6 +59,9 @@ input:hover{
     font-weight:800;
 }
 @media screen and (min-width:300px) and (max-width:991px){
+   body{
+       background-color:red;
+   }
     #main{
         display:flex;
         flex-direction: column;
