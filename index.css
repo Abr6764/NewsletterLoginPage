@@ -70,6 +70,9 @@ input:hover{
         background-color: hsl(0, 0%, 100%);
         
     }
+    .mobile_img{
+        width:300px;
+    }
     .success_msg,.laptop_img{
         display:none;
         
