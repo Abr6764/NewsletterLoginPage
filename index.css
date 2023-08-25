@@ -1,1 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@100;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: hsl(234, 29%, 20%);
+}
+
+.points-section{
+    display:flex;
+    flex-direction:column;
+
+}
+.points{
+    display:flex;
+}
+.points p{
+    padding-left:10px;
+}
+.email-section{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-weight: bold;
+}
+input{
+    font-size: 18px;
+    border:1px solid hsl(231, 7%, 60%);
+    border-radius: 10px;
+    color:hsl(231, 7%, 60%);
+
+}
+input:hover{
+    border:1px solid black;
+    cursor: pointer;
+}
+
+#err_msg{
+    color:hsl(4, 79%, 49%);
+}
+#subscribe_btn{
+    color:aliceblue;
+    text-align: center;
+    background-color: hsl(235, 18%, 26%);
+}
+.dismissbtn:hover,#subscribe_btn:hover{
+    background-image:linear-gradient(to bottom right,hsl(333, 74%, 46%),hsl(4, 79%, 49%));
+    cursor: pointer;
+}
+
+#subscriberId{
+    font-weight:800;
+}
+@media screen and (min-width:280px) and (max-width:991px){
+    body{
+        width:355px;
+    }
+    #main{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        border : 1px solid grey;
+        width : 340px;
+        background-color: hsl(0, 0%, 100%);
+        
+    }
+    .success_msg,.laptop_img{
+        display:none;
+        
+    }
+    .mobile_img img{
+        width:330px;
+        background-size: cover;
+    }
+   
+    section{
+        padding-left:5px;
+        padding-right:5px;
+        
+    }
+    
+    .points{
+        padding:1px 5px 1px 0px;
+        margin:-7px 0px;
+        
+    }
+   
+    h1{
+        font-size:32px;
+        font-weight: 800;
+        margin-top:8px;
+        margin-bottom:0px;
+    }
+    .email-section{
+        margin-top: 3px;
+    }
+    #err_msg{
+        display:none;
+    }
+    #email{
+        width:280px;
+        height:40px;
+        border-radius: 10px;
+        padding-left: 8px;
+        margin:5px 0px;
+    }
+    #subscribe_btn{
+        height:40px;
+        width:280px;
+        color:aliceblue;
+        background-color: hsl(235, 18%, 26%);
+        font-size: 16px;
+        font-weight: bold;
+        padding-top:12px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top:5px;
+    }
+    #success_msg{
+        height:100%;
+        display:none;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:15px;
+        background-color: white;
+        width : 320px;
+        padding:100px 30px ;
+        
+    }
+    #success_msg img{
+        width:50px;
+    }
+    #greetings{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #success_msg p{
+        font-size: 15px;
+        padding-right:15px;
+        padding-left:5px;
+        margin-bottom:200px;
+    }
+    .dismissbtn{
+        text-align:center;
+        width:260px;
+        padding:15px;
+        margin-right:5px;
+        bottom:0px;
+        border-radius:10px;
+        background-color: rgb(37, 37, 41);
+        color:white;
+        font-size: 15px;
+        font-weight:600;
+    }
+}
+/*desktop design*/
+@media screen and (min-width:992px){
+
+    #main{
+        display:flex;
+        border : 1px solid grey;
+        width : 940px;
+        padding : 20px 0px;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 100%);
+        
+    }
+    .points{
+        display:flex;
+        
+    }
+    
+    .mobile_img{
+        display:none;
+    }
+    section{
+        padding-left:40px;
+        padding-right:40px;
+        
+    }
+    h1{
+        font-size:50px;
+        font-weight: 800;
+    }
+    .email-section{
+        
+        padding:10px 0px;
+        margin-top: 10px;
+    }
+    #err_msg{
+        display:none;
+    }
+    #email{
+        width:440px;
+        height:60px;
+        padding: 10px 15px;
+        
+    }
+    #subscribe_btn{
+        height:55px;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top:15px;
+        border-radius: 15px;
+        margin-top:30px;
+    }
+    #success_msg{
+        display:none;
+        flex-direction: column;
+        gap:20px;
+        background-color: white;
+        width:500px;
+        padding:30px 50px;
+        border-radius:30px;
+
+    }
+    #success_msg img{
+        width:60px;
+    }
+    #greetings{
+        font-size: 60px;
+        font-weight: 800;
+    }
+    #success_msg p{
+        font-size: 16px;
+        padding-right:40px;
+        padding-left:5px;
+    }
+    .dismissbtn{
+        text-align:center;
+        width:400px;
+        padding:20px;
+        border-radius:15px;
+        background-color: rgb(37, 37, 41);
+        color:white;
+        font-size: 18px;
+        font-weight:600;
+    }
+
+
+}
+
+    
 
