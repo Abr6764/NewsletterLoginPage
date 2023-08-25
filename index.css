@@ -77,44 +77,47 @@ input:hover{
         
     }
     .mobile_img img{
-        width:330px;
+        width:340px;
         background-size: cover;
     }
    
     section{
-        padding-left:5px;
+        padding-left:15px;
         padding-right:5px;
         
     }
     
     .points{
-        padding:1px 5px 1px 0px;
-        margin:-7px 0px;
+        padding:0px 5px 0px 0px;
+        margin:-10px 0px;
         
     }
    
     h1{
         font-size:32px;
         font-weight: 800;
-        margin-top:8px;
+        margin-top:6px;
         margin-bottom:0px;
     }
     .email-section{
         margin-top: 3px;
     }
+    input{
+        font-size:14px;
+    }
     #err_msg{
         display:none;
     }
     #email{
-        width:280px;
+        width:300px;
         height:40px;
         border-radius: 10px;
-        padding-left: 8px;
+        padding-left: 12px;
         margin:5px 0px;
     }
     #subscribe_btn{
         height:40px;
-        width:280px;
+        width:300px;
         color:aliceblue;
         background-color: hsl(235, 18%, 26%);
         font-size: 16px;
@@ -249,4 +252,3 @@ input:hover{
 }
 
     
-
