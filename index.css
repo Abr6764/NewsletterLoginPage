@@ -61,6 +61,7 @@ input:hover{
 @media screen and (min-width:280px) and (max-width:991px){
     body{
         width:355px;
+        justify-content:flex-start;
     }
     #main{
         display:flex;
@@ -68,7 +69,8 @@ input:hover{
         justify-content: flex-start;
         align-items:center;
         border : 1px solid grey;
-        width : 340px;
+        width : 350px;
+        height:660px;
         background-color: hsl(0, 0%, 100%);
         
     }
@@ -77,7 +79,7 @@ input:hover{
         
     }
     .mobile_img img{
-        width:340px;
+        width:350px;
         background-size: cover;
     }
    
@@ -109,7 +111,7 @@ input:hover{
         display:none;
     }
     #email{
-        width:300px;
+        width:310px;
         height:40px;
         border-radius: 10px;
         padding-left: 12px;
@@ -117,7 +119,7 @@ input:hover{
     }
     #subscribe_btn{
         height:40px;
-        width:300px;
+        width:310px;
         color:aliceblue;
         background-color: hsl(235, 18%, 26%);
         font-size: 16px;
@@ -134,15 +136,15 @@ input:hover{
         justify-content: flex-start;
         gap:15px;
         background-color: white;
-        width : 320px;
+        width : 350px;
         padding:100px 30px ;
         
     }
     #success_msg img{
-        width:50px;
+        width:60px;
     }
     #greetings{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 800;
     }
     #success_msg p{
